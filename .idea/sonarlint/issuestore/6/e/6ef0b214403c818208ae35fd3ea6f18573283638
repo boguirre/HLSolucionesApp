@@ -1,0 +1,33 @@
+
+c
+java:S1659)"HDeclare "edtPassword" and all following declarations on a separate line.(ë¡ª™ıÿÿÿÿ
+^
+java:S1659*"HDeclare "iplPassword" and all following declarations on a separate line.(í¢‹à
+p
+java:S1450+"ZRemove the "btnRegister" field and declare it as a local variable in the relevant methods.(ıüÀ½
+m
+java:S1450,"WRemove the "txtLogin" field and declare it as a local variable in the relevant methods.(´óÉÎ
+Q
+java:S1874-"6Remove this use of "ProgressDialog"; it is deprecated.(ÿ¢ÿÿÿÿÿ
+Q
+java:S1874E"6Remove this use of "ProgressDialog"; it is deprecated.(¡öÍöúÿÿÿÿ
+G
+java:S1602H",Remove useless curly braces around statement(ˆ‚¶øÿÿÿÿ
+—
+java:S1186T"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(á¬‡İ
+œ
+java:S1186`"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(×åó«øÿÿÿÿ
+—
+java:S1186g"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(á¬‡İ
+œ
+java:S1186t"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(×åó«øÿÿÿÿ
+—
+java:S1186{"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(á¬‡İ
+
+java:S1186‡"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(×åó«øÿÿÿÿ
+I
+java:S1874§"2Remove this use of "setMessage"; it is deprecated.(ÂñùÊ
+Q	java:S125¬"<This block of commented-out lines of code should be removed.(¾şˆ|
+A
+java:S1068*"+Remove this unused "iplName" private field.(í¢‹à
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(àù—üÿÿÿÿÿ

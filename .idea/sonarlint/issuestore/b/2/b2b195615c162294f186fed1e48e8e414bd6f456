@@ -1,0 +1,13 @@
+
+X	java:S125+"<This block of commented-out lines of code should be removed.(˜¤²ó8³äô¯¨0
+V	java:S125D"<This block of commented-out lines of code should be removed.(‹Åý…þÿÿÿÿ
+>	java:S131Y""Add a default case to this switch.(¿›Ý”8ò²˜Î¢0
+k
+java:S1659¤"HDeclare "txtVehiculo" and all following declarations on a separate line.(²—œ¾øÿÿÿÿ8†³˜Î¢0
+
+java:S1319'"dThe type of "list" should be an interface such as "List" rather than the implementation "ArrayList".(À»‘ðÿÿÿÿÿ
+E
+java:S1604U"(Make this anonymous inner class a lambda(»ä”ö8Œ³˜Î¢0
+h
+java:S1301Y"KReplace this "switch" statement by "if" statements to increase readability.(¿›Ý”8Œ³˜Î¢0
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(„Ë†¥

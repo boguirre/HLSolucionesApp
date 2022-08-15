@@ -1,0 +1,111 @@
+
+D
+java:S1659A")Declare "edtCifravin" on a separate line.(û€•œÿÿÿÿÿ
+x
+java:S1450?"]Remove the "btnAddVehiculo" field and declare it as a local variable in the relevant methods.(İ–îƒüÿÿÿÿ
+t
+java:S1450H"YRemove the "listaAreas" field and declare it as a local variable in the relevant methods.(ˆ¢Œ²üÿÿÿÿ
+u
+java:S1450F"ZRemove the "listaMarcas" field and declare it as a local variable in the relevant methods.(È°°Êüÿÿÿÿ
+w
+java:S1450I"\Remove the "listaSubareas" field and declare it as a local variable in the relevant methods.(É¸ÑÓÿÿÿÿÿ
+w
+java:S1450T"URemove the "values" field and declare it as a local variable in the relevant methods.(’Ëûÿÿÿÿ8¬®Ì©0
+Q
+java:S1874D"6Remove this use of "ProgressDialog"; it is deprecated.(·á…Çùÿÿÿÿ
+@
+java:S1197O"*Move the array designators [] to the type.(í¤èÈ
+V	java:S125\"<This block of commented-out lines of code should be removed.(¾­æšüÿÿÿÿ
+Q
+java:S1874s"6Remove this use of "ProgressDialog"; it is deprecated.(¿Ú•ğúÿÿÿÿ
+X	java:S125z"<This block of commented-out lines of code should be removed.(µ¿ú¶8±Æ„€©0
+W	java:S125"<This block of commented-out lines of code should be removed.(ÜÄºéÿÿÿÿÿ
+
+java:S1186 "€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ñ¢®Êøÿÿÿÿ
+
+java:S1186®"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ñ¢®Êøÿÿÿÿ
+
+java:S1186Æ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ñ¢®Êøÿÿÿÿ
+d
+java:S1871»"MThis branch's code block is the same as the block for the branch on line 183.(ùøÛû
+C
+java:S1602Ë",Remove useless curly braces around statement(¶‡¸
+i
+java:S3252Ñ"MUse static access with "android.provider.MediaStore$MediaColumns" for "DATA".(ÅöÔ¡üÿÿÿÿ
+K
+java:S1874Ò"4Remove this use of "managedQuery"; it is deprecated.( äóˆ
+d
+java:S3252Ó"MUse static access with "android.provider.MediaStore$MediaColumns" for "DATA".(ñ²ùÏ
+W	java:S125ı"<This block of commented-out lines of code should be removed.(Ò·’øıÿÿÿÿ
+I
+java:S1874"2Remove this use of "setMessage"; it is deprecated.(Æ¬
+H
+java:S1602³",Remove useless curly braces around statement(ËÕ£Õúÿÿÿÿ
+I
+java:S1874Î"2Remove this use of "setMessage"; it is deprecated.(Æ¬
+H
+java:S1602á",Remove useless curly braces around statement(ËÕ£Õúÿÿÿÿ
+d	java:S100ü"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õ¾¿Ï
+H
+java:S1602‘",Remove useless curly braces around statement(ËÕ£Õúÿÿÿÿ
+i	java:S100¡"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Îè¥‘úÿÿÿÿ
+H
+java:S1602¶",Remove useless curly braces around statement(ËÕ£Õúÿÿÿÿ
+i	java:S100Æ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–±÷àüÿÿÿÿ
+W	java:S125×"<This block of commented-out lines of code should be removed.(¦¹™Óùÿÿÿÿ
+H
+java:S1602Ş",Remove useless curly braces around statement(ËÕ£Õúÿÿÿÿ
+i	java:S100ğ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶ş–Şøÿÿÿÿ
+H
+java:S1602…",Remove useless curly braces around statement(ËÕ£Õúÿÿÿÿ
+R
+java:S1117›";Rename "subarea" which hides the field declared at line 79.(à÷Ñı
+I
+java:S1874¦"2Remove this use of "setMessage"; it is deprecated.(Æ¬
+A
+java:S1172å"+Remove this unused method parameter "view".(œ¡¢/
+N
+java:S1172è"+Remove this unused method parameter "view".(³ÁÆıÿÿÿÿ8Öÿïÿ¨0
+>	java:S131ğ""Add a default case to this switch.(ìúÇV8×…òÿ¨0
+^	java:S125‚"<This block of commented-out lines of code should be removed.(Õüƒñıÿÿÿÿ8üøË©0
+q
+java:S3252…"NUse static access with "android.provider.MediaStore$MediaColumns" for "TITLE".(À§äüÿÿÿÿ8ñ®Ì©0
+y
+java:S3252†"[Use static access with "android.provider.MediaStore$Images$ImageColumns" for "DESCRIPTION".(¢¯šÂ8ò®Ì©0
+U
+java:S1874‹">Remove this use of "startActivityForResult"; it is deprecated.(—›¦ê
+\
+java:S1874‘">Remove this use of "startActivityForResult"; it is deprecated.(ôª€Ê8õ®Ì©0
+`
+java:S1874œ"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(¹Î¾
+Y	java:S125Ÿ"<This block of commented-out lines of code should be removed.(êß½¨8¯Í©0
+O
+java:S1874«"1Remove this use of "getBitmap"; it is deprecated.(¡ š8ÉÁûÿ¨0
+D	java:S131±""Add a default case to this switch.(×ö³–úÿÿÿÿ8¥ÛÍ©0
+T
+java:S1874¶"1Remove this use of "getBitmap"; it is deprecated.(¬”ò²ıÿÿÿÿ8¥ÛÍ©0
+Z
+java:S1144Ø"CRemove this unused private "checkExternalStoragePermission" method.(Ëå¡—
+c
+java:S1192Ä"GDefine a constant instead of duplicating this literal "nombre" 6 times.(‰ßßËûÿÿÿÿ
+e
+java:S1192¼"NDefine a constant instead of duplicating this literal "Authorization" 7 times.(ÄÈø¡
+w
+java:S1192‰"[Define a constant instead of duplicating this literal "Completar todos los campos" 4 times.(¼ùşşÿÿÿÿÿ
+a
+java:S1192"JDefine a constant instead of duplicating this literal "Guardando" 3 times.(Æ¬
+_
+java:S1192¼"HDefine a constant instead of duplicating this literal "Bearer " 7 times.(ÄÈø¡
+M
+java:S1066´"/Merge this if statement with the enclosing one.(¾Çß8¨ÛÍ©0
+g	java:S117Ó"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ²ùÏ
+F
+java:S1604ì"(Make this anonymous inner class a lambda(èñ†8ä…òÿ¨0
+h
+java:S1301ğ"KReplace this "switch" statement by "if" statements to increase readability.(ìúÇV8å…òÿ¨0
+n
+java:S1301±"KReplace this "switch" statement by "if" statements to increase readability.(×ö³–úÿÿÿÿ8©ÛÍ©0
+`
+java:S2259¨"BA "NullPointerException" could be thrown; "data" is nullable here.(°ÛĞÂ8êÂûÿ¨0
+U
+java:S2589³"7Remove this expression which always evaluates to "true"(ÑÜ“ı8ÁÜÍ©0

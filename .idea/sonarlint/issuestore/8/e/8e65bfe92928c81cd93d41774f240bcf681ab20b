@@ -1,0 +1,16 @@
+
+Q	java:S125/"<This block of commented-out lines of code should be removed.(­Ø¡­
+h
+java:S3776:"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(Õ·’ö
+7	java:S131l""Add a default case to this switch.(¿›Ý”
+_
+java:S1659Ì"HDeclare "txtCifravin" and all following declarations on a separate line.(Â—®í
+G
+java:S1068Ï"0Remove this unused "imgcheckUser" private field.(æýñÑ
+
+java:S1319+"dThe type of "list" should be an interface such as "List" rather than the implementation "ArrayList".(¼Þçñúÿÿÿÿ
+>
+java:S1604h"(Make this anonymous inner class a lambda(»ä”ö
+a
+java:S1301l"KReplace this "switch" statement by "if" statements to increase readability.(¿›Ý”
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(„Ë†¥

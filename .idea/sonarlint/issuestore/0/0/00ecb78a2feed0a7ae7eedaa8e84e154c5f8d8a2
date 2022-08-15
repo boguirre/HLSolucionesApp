@@ -1,0 +1,73 @@
+
+l	java:S1162"RRename this field "area_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûŒéĞûÿÿÿÿ
+p	java:S1162"VRename this field "servicio_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûŒéĞûÿÿÿÿ
+_
+java:S16592"DDeclare "area_id" and all following declarations on a separate line.(ûŒéĞûÿÿÿÿ
+_
+java:S16594"DDeclare "imgSeg2" and all following declarations on a separate line.(î œéıÿÿÿÿ
+q
+java:S14502"VRemove the "area_id" field and declare it as a local variable in the relevant methods.(ûŒéĞûÿÿÿÿ
+~
+java:S14503"cRemove the "btnAddControlCalidad" field and declare it as a local variable in the relevant methods.(ÉŞª³şÿÿÿÿ
+t
+java:S1450;"YRemove the "listaAreas" field and declare it as a local variable in the relevant methods.(ˆ¢Œ²üÿÿÿÿ
+s
+java:S1450<"]Remove the "listaServicios" field and declare it as a local variable in the relevant methods.(Ë£õ
+u
+java:S14502"ZRemove the "servicio_id" field and declare it as a local variable in the relevant methods.(ûŒéĞûÿÿÿÿ
+x
+java:S14508"]Remove the "txtFechaactual" field and declare it as a local variable in the relevant methods.(ÜöÜ§ıÿÿÿÿ
+i
+java:S14507"TRemove the "txtot" field and declare it as a local variable in the relevant methods.(çÚ÷)
+Q
+java:S18749"6Remove this use of "ProgressDialog"; it is deprecated.(·á…Çùÿÿÿÿ
+@
+java:S1197A"*Move the array designators [] to the type.(¨Í“·
+Q
+java:S1874U"6Remove this use of "ProgressDialog"; it is deprecated.(¿Ú•ğúÿÿÿÿ
+œ
+java:S1186o"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(»ŠÇ¾ıÿÿÿÿ
+H
+java:S1874z"2Remove this use of "setMessage"; it is deprecated.(Æ¬
+I
+java:S1172®"+Remove this unused method parameter "view".(‘®ç8ËƒŠ¦0
+N
+java:S1172Í"+Remove this unused method parameter "view".(³ÁÆıÿÿÿÿ8ÒƒŠ¦0
+a
+java:S1874Ï">Remove this use of "startActivityForResult"; it is deprecated.(öäúÿÿÿÿÿ8ÖƒŠ¦0
+N
+java:S1172Ò"+Remove this unused method parameter "view".(°ôçôøÿÿÿÿ8×ƒŠ¦0
+a
+java:S1874Ô">Remove this use of "startActivityForResult"; it is deprecated.(Â—¶şÿÿÿÿ8ØƒŠ¦0
+I
+java:S1172×"+Remove this unused method parameter "view".(¶­ì˜8ÙƒŠ¦0
+a
+java:S1874Ù">Remove this use of "startActivityForResult"; it is deprecated.(”µá¢ùÿÿÿÿ8ÚƒŠ¦0
+N
+java:S1172Ü"+Remove this unused method parameter "view".(¬ûŒóşÿÿÿÿ8ÛƒŠ¦0
+\
+java:S1874Ş">Remove this use of "startActivityForResult"; it is deprecated.(ÂĞñÖ8ÜƒŠ¦0
+g
+java:S1874â"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(¹Î¾8İƒŠ¦0
+F
+java:S10682"+Remove this unused "area_id" private field.(ûŒéĞûÿÿÿÿ
+J
+java:S10682"/Remove this unused "servicio_id" private field.(ûŒéĞûÿÿÿÿ
+E
+java:S10685"/Remove this unused "spinnerArea" private field.(“Ü¡Ú
+I
+java:S1068;".Remove this unused "listaAreas" private field.(ˆ¢Œ²üÿÿÿÿ
+H
+java:S1068<"2Remove this unused "listaServicios" private field.(Ë£õ
+>
+java:S1604g"(Make this anonymous inner class a lambda(…•ú–
+C
+java:S1604m"(Make this anonymous inner class a lambda(…‘ğñÿÿÿÿÿ
+e
+java:S2259ô"BA "NullPointerException" could be thrown; "data" is nullable here.(Š›É¹üÿÿÿÿ8‡ƒŠ¦0
+e
+java:S2259û"BA "NullPointerException" could be thrown; "data" is nullable here.(Š›É¹üÿÿÿÿ8‡ƒŠ¦0
+e
+java:S2259í"BA "NullPointerException" could be thrown; "data" is nullable here.(Š›É¹üÿÿÿÿ8‡ƒŠ¦0
+e
+java:S2259æ"BA "NullPointerException" could be thrown; "data" is nullable here.(Š›É¹üÿÿÿÿ8‡ƒŠ¦0

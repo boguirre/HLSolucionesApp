@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddEspecializadoActivity">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title=""
+        android:elevation="1dp">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            android:backgroundTint="@color/white"
+            android:layout_marginRight="12dp"
+            android:onClick="cancelVehiculo"
+            android:layout_height="wrap_content"
+            app:tint="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nuevo Registro Servicio Especializado"
+            android:textColor="@color/black"
+            android:textSize="18sp"/>
+
+    </com.google.android.material.appbar.MaterialToolbar>
+
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swiperAddEspecializado"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:layout_marginTop="6dp">
+
+                <TextView
+                    android:id="@+id/txtPlacaSeleccionadoEsp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Agregar Imagenes (Requerido)"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <EditText
+                    android:id="@+id/edtOrdenTrabajoEsp"
+                    android:layout_width="match_parent"
+                    android:layout_height="39dp"
+                    android:inputType="number"
+                    android:hint="Numero de Orden de Trabajo"
+                    android:padding="10dp"
+                    android:textSize="15sp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/edt_background"/>
+
+                <EditText
+                    android:id="@+id/edtOC"
+                    android:layout_width="match_parent"
+                    android:layout_height="39dp"
+                    android:inputType="number"
+                    android:hint="Numero de OC"
+                    android:padding="10dp"
+                    android:textSize="15sp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/edt_background"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Elegir Servicio"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="10dp" />
+
+                <Spinner
+                    android:id="@+id/spinnerServicioEsp"
+                    android:layout_width="match_parent"
+                    android:layout_height="39dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/edt_background"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Elegir Especialista"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <Spinner
+                    android:id="@+id/spinnerEspecialista"
+                    android:layout_width="match_parent"
+                    android:layout_height="39dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/edt_background"/>
+
+                <TextView
+                    android:id="@+id/txtAddService"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Agregar Otro Servicio"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Agregar Imagenes (Requerido)"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/ic_baseline_add_a_photo_24"
+                    android:padding="20dp"
+                    android:id="@+id/imgEsp1"
+                    android:background="@drawable/edt_background"
+                    android:layout_marginBottom="16dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tomar Foto"
+                    android:textColor="#3F51B5"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:background="@drawable/edt_background"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="20dp"
+                    android:layout_gravity="center_horizontal"
+                    android:onClick="tomatFoto"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:adjustViewBounds="true"
+                    android:id="@+id/imgEsp2"
+                    android:src="@drawable/ic_baseline_add_a_photo_24"
+                    android:padding="20dp"
+                    android:background="@drawable/edt_background"
+                    android:layout_marginBottom="16dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tomar Foto"
+                    android:textColor="#3F51B5"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:background="@drawable/edt_background"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="20dp"
+                    android:layout_gravity="center_horizontal"
+                    android:onClick="tomatFoto2"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:adjustViewBounds="true"
+                    android:id="@+id/imgEsp3"
+                    android:src="@drawable/ic_baseline_add_a_photo_24"
+                    android:padding="20dp"
+                    android:background="@drawable/edt_background"
+                    android:layout_marginBottom="16dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tomar Foto"
+                    android:textColor="#3F51B5"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:background="@drawable/edt_background"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="20dp"
+                    android:layout_gravity="center_horizontal"
+                    android:onClick="tomatFoto3"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:adjustViewBounds="true"
+                    android:id="@+id/imgEsp4"
+                    android:src="@drawable/ic_baseline_add_a_photo_24"
+                    android:padding="20dp"
+                    android:background="@drawable/edt_background"
+                    android:layout_marginBottom="16dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tomar Foto"
+                    android:textColor="#3F51B5"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:background="@drawable/edt_background"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="20dp"
+                    android:layout_gravity="center_horizontal"
+                    android:onClick="tomatFoto4"/>
+
+                <Button
+                    android:id="@+id/btnAddEspecializado"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Registrar Ingreso"
+                    android:backgroundTint="#3F51B5"
+                    app:cornerRadius="20dp"/>
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+
+</LinearLayout>

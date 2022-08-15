@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddIncidenciaActivity">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title=""
+        android:elevation="1dp">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            android:backgroundTint="@color/white"
+            android:layout_marginRight="12dp"
+            android:onClick="cancelIncidencia"
+            android:layout_height="wrap_content"
+            app:tint="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nuevo Registro Incidencia"
+            android:textColor="@color/black"
+            android:textSize="18sp"/>
+
+    </com.google.android.material.appbar.MaterialToolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_marginTop="6dp">
+<!--            -->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Elegir Area"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:layout_marginLeft="5dp"-->
+<!--                android:layout_marginBottom="10dp"-->
+<!--                android:onClick="tomatFoto"/>-->
+
+<!--            <Spinner-->
+<!--                android:id="@+id/spinnerArea"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="39dp"-->
+<!--                android:layout_marginBottom="20dp"-->
+<!--                android:background="@drawable/edt_background"/>-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Elegir Marca"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="10dp"/>
+
+            <Spinner
+                android:id="@+id/spinnerMarcaInci"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/edt_background"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Elegir Modelo"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="10dp"/>
+
+            <Spinner
+                android:id="@+id/spinnerModeloInci"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/edt_background"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Descripcion"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="10dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:id="@+id/edtDescripcion"
+                android:hint="Agregar Descripcion"
+                android:paddingBottom="100dp"
+                android:paddingLeft="10dp"
+                android:textSize="15dp"
+                android:background="@drawable/edt_background"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Agregar Imagenes (Requerido)"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="10dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:adjustViewBounds="true"
+                android:id="@+id/imgInci1"
+                android:src="@drawable/ic_baseline_add_a_photo_24"
+                android:padding="20dp"
+                android:background="@drawable/edt_background"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tomar Foto"
+                android:textColor="#3F51B5"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:background="@drawable/edt_background"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center_horizontal"
+                android:onClick="tomatFoto"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:adjustViewBounds="true"
+                android:id="@+id/imgInci2"
+                android:src="@drawable/ic_baseline_add_a_photo_24"
+                android:padding="20dp"
+                android:background="@drawable/edt_background"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tomar Foto"
+                android:textColor="#3F51B5"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:background="@drawable/edt_background"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center_horizontal"
+                android:onClick="tomatFoto2"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:adjustViewBounds="true"
+                android:id="@+id/imgInci3"
+                android:src="@drawable/ic_baseline_add_a_photo_24"
+                android:padding="20dp"
+                android:background="@drawable/edt_background"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tomar Foto"
+                android:textColor="#3F51B5"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:background="@drawable/edt_background"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center_horizontal"
+                android:onClick="tomatFoto3"/>
+
+            <Button
+                android:id="@+id/btnAddIncidencia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Registrar Ingreso"
+                android:backgroundTint="#3F51B5"
+                app:cornerRadius="20dp"/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

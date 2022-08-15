@@ -1,0 +1,12 @@
+
+X	java:S125*"<This block of commented-out lines of code should be removed.(­Ø¡­8Ÿ•ö¯¨0
+7	java:S131X""Add a default case to this switch.(¿›Ý”
+Y
+java:S1659£"BDeclare "txtOc" and all following declarations on a separate line.(÷©åŸ
+z
+java:S1319&"dThe type of "list" should be an interface such as "List" rather than the implementation "ArrayList".(±¾Òõ
+>
+java:S1604T"(Make this anonymous inner class a lambda(»ä”ö
+a
+java:S1301X"KReplace this "switch" statement by "if" statements to increase readability.(¿›Ý”
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(„Ë†¥

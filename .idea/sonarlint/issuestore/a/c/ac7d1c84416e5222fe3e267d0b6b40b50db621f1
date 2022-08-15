@@ -1,0 +1,11 @@
+
+}
+java:S1450"`Remove the "sharedPreferences" field and declare it as a local variable in the relevant methods.(„ºÌ¬8Êœ÷¯¨0
+X	java:S125!"<This block of commented-out lines of code should be removed.(­Ø¡­8×÷ö¯¨0
+^
+java:S1659h"HDeclare "txtVehiculo" and all following declarations on a separate line.(õžÚ
+D
+java:S1068i".Remove this unused "btnOptions" private field.(¹±™ä
+
+java:S1319"dThe type of "list" should be an interface such as "List" rather than the implementation "ArrayList".(ÛÜ“úÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(„Ë†¥

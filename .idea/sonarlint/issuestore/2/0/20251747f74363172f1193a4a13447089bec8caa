@@ -1,0 +1,67 @@
+
+Z
+java:S16594"DDeclare "imgSeg2" and all following declarations on a separate line.(Öÿá
+F
+java:S16596"+Declare "spinnerModelo" on a separate line.(ñ§ƒÿÿÿÿÿ
+z
+java:S14503"_Remove the "btnAddIncidencia" field and declare it as a local variable in the relevant methods.(æÏĞëşÿÿÿÿ
+u
+java:S1450="ZRemove the "listaMarcas" field and declare it as a local variable in the relevant methods.(È°°Êüÿÿÿÿ
+s
+java:S1450<"]Remove the "listaServicios" field and declare it as a local variable in the relevant methods.(Ë£õ
+V	java:S1258"<This block of commented-out lines of code should be removed.(Ó»„øÿÿÿÿ
+Q
+java:S18749"6Remove this use of "ProgressDialog"; it is deprecated.(·á…Çùÿÿÿÿ
+Q	java:S125;"<This block of commented-out lines of code should be removed.(ÕúÕè
+V	java:S125V"<This block of commented-out lines of code should be removed.(Ø²˜úÿÿÿÿ
+Q
+java:S1874W"6Remove this use of "ProgressDialog"; it is deprecated.(¿Ú•ğúÿÿÿÿ
+œ
+java:S1186m"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(»ŠÇ¾ıÿÿÿÿ
+
+java:S1186‚"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ñ¢®Êøÿÿÿÿ
+i	java:S100ˆ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–±÷àüÿÿÿÿ
+W	java:S125™"<This block of commented-out lines of code should be removed.(¦¹™Óùÿÿÿÿ
+H
+java:S1602 ",Remove useless curly braces around statement(ËÕ£Õúÿÿÿÿ
+i	java:S100²"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶ş–Şøÿÿÿÿ
+H
+java:S1602Ç",Remove useless curly braces around statement(ËÕ£Õúÿÿÿÿ
+I
+java:S1874Û"2Remove this use of "setMessage"; it is deprecated.(Æ¬
+B
+java:S1172¢"+Remove this unused method parameter "view".(¬ÕÒ‚
+G
+java:S1172±"+Remove this unused method parameter "view".(³ÁÆıÿÿÿÿ
+Z
+java:S1874³">Remove this use of "startActivityForResult"; it is deprecated.(öäúÿÿÿÿÿ
+G
+java:S1172¶"+Remove this unused method parameter "view".(°ôçôøÿÿÿÿ
+Z
+java:S1874¸">Remove this use of "startActivityForResult"; it is deprecated.(Â—¶şÿÿÿÿ
+B
+java:S1172»"+Remove this unused method parameter "view".(¶­ì˜
+Z
+java:S1874½">Remove this use of "startActivityForResult"; it is deprecated.(”µá¢ùÿÿÿÿ
+`
+java:S1874Á"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(¹Î¾
+G
+java:S10687",Remove this unused "txtplaca" private field.(†ŒüÓÿÿÿÿÿ
+H
+java:S1068<"2Remove this unused "listaServicios" private field.(Ë£õ
+D
+java:S1068C".Remove this unused "vehiculoId" private field.(¡Ü¥Ô
+e
+java:S1192§"NDefine a constant instead of duplicating this literal "Authorization" 3 times.(ÄÈø¡
+_
+java:S1192§"HDefine a constant instead of duplicating this literal "Bearer " 3 times.(ÄÈø¡
+>
+java:S1604e"(Make this anonymous inner class a lambda(…•ú–
+C
+java:S1604k"(Make this anonymous inner class a lambda(…‘ğñÿÿÿÿÿ
+^
+java:S2259Å"BA "NullPointerException" could be thrown; "data" is nullable here.(Š›É¹üÿÿÿÿ
+^
+java:S2259Ì"BA "NullPointerException" could be thrown; "data" is nullable here.(Š›É¹üÿÿÿÿ
+^
+java:S2259Ó"BA "NullPointerException" could be thrown; "data" is nullable here.(Š›É¹üÿÿÿÿ

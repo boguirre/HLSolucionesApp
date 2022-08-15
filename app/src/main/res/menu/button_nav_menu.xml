@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Vehiculos"
+        android:icon="@drawable/ic_baseline_directions_car_24"
+        android:id="@+id/vehicles"/>
+    <item android:title="Serv. Lavado"
+        android:icon="@drawable/ic_baseline_local_car_wash_24"
+        android:id="@+id/lavado"/>
+    <item android:title="Serv. Especial"
+        android:icon="@drawable/ic_baseline_fact_check_24"
+        android:id="@+id/especializado"/>
+    <item android:title="Incidentes"
+        android:icon="@drawable/ic_baseline_warning_24"
+        android:id="@+id/incidente"/>
+</menu>

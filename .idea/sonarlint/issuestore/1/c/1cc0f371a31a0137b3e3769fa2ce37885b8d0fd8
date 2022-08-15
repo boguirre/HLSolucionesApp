@@ -1,0 +1,69 @@
+
+h	java:S116."SRename this field "marca_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Êµİâ
+i	java:S116."TRename this field "modelo_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Êµİâ
+g	java:S116."RRename this field "area_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Êµİâ
+k	java:S116/"VRename this field "sub_area_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãÁ›ò
+
+java:S1186Ë"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(³ÁÆıÿÿÿÿ
+U
+java:S1659."?Declare "id" and all following declarations on a separate line.(Êµİâ
+D
+java:S16590")Declare "edtCifravin" on a separate line.(û€•œÿÿÿÿÿ
+l
+java:S1450."VRemove the "area_id" field and declare it as a local variable in the relevant methods.(Êµİâ
+l
+java:S14506"VRemove the "btnEdit" field and declare it as a local variable in the relevant methods.(şäÚÛ
+r
+java:S14501"WRemove the "imgPlaca" field and declare it as a local variable in the relevant methods.(áæ“àÿÿÿÿÿ
+t
+java:S1450<"YRemove the "listaAreas" field and declare it as a local variable in the relevant methods.(ˆ¢Œ²üÿÿÿÿ
+u
+java:S1450:"ZRemove the "listaMarcas" field and declare it as a local variable in the relevant methods.(È°°Êüÿÿÿÿ
+w
+java:S1450="\Remove the "listaSubareas" field and declare it as a local variable in the relevant methods.(É¸ÑÓÿÿÿÿÿ
+m
+java:S1450."WRemove the "marca_id" field and declare it as a local variable in the relevant methods.(Êµİâ
+n
+java:S1450."XRemove the "modelo_id" field and declare it as a local variable in the relevant methods.(Êµİâ
+m
+java:S1450."WRemove the "position" field and declare it as a local variable in the relevant methods.(Êµİâ
+Q
+java:S18747"6Remove this use of "ProgressDialog"; it is deprecated.(ÿ¢ÿÿÿÿÿ
+L
+java:S1874V"6Remove this use of "ProgressDialog"; it is deprecated.(†ÀÍ™
+
+java:S1186‡"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ñ¢®Êøÿÿÿÿ
+
+java:S1186•"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ñ¢®Êøÿÿÿÿ
+i	java:S100›"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–±÷àüÿÿÿÿ
+H
+java:S1602±",Remove useless curly braces around statement(ËÕ£Õúÿÿÿÿ
+d	java:S100Ã"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õ¾¿Ï
+H
+java:S1602Ú",Remove useless curly braces around statement(ËÕ£Õúÿÿÿÿ
+i	java:S100ê"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Îè¥‘úÿÿÿÿ
+H
+java:S1602€",Remove useless curly braces around statement(ËÕ£Õúÿÿÿÿ
+d	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(À¾†‰
+H
+java:S1602¦",Remove useless curly braces around statement(ËÕ£Õúÿÿÿÿ
+i	java:S100Ş"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶ş–Şøÿÿÿÿ
+R	java:S125¶"<This block of commented-out lines of code should be removed.(»úìğ
+H
+java:S1602ô",Remove useless curly braces around statement(ËÕ£Õúÿÿÿÿ
+3
+java:S1116‹"Remove this empty statement.(š¯û°
+N
+java:S1874•"2Remove this use of "setMessage"; it is deprecated.(ŠùÎïúÿÿÿÿ
+A
+java:S1172Î"+Remove this unused method parameter "view".(œ¡¢/
+C
+java:S1068."-Remove this unused "modelo_id" private field.(Êµİâ
+^
+java:S1192¥"GDefine a constant instead of duplicating this literal "nombre" 5 times.(Çõ¡Ù
+e
+java:S1192¸"NDefine a constant instead of duplicating this literal "Authorization" 6 times.(ÄÈø¡
+e
+java:S1192`"JDefine a constant instead of duplicating this literal "cifra_vin" 3 times.(¥—Í†úÿÿÿÿ
+_
+java:S1192¸"HDefine a constant instead of duplicating this literal "Bearer " 6 times.(ÄÈø¡

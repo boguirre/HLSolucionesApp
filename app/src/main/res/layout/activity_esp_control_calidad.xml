@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".EspControlCalidadActivity">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title=""
+        android:elevation="1dp">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            android:backgroundTint="@color/white"
+            android:layout_marginRight="12dp"
+            android:onClick="cancelControl"
+            android:layout_height="wrap_content"
+            app:tint="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Control de Servicio Especializado"
+            android:textColor="@color/black"
+            android:textSize="18sp"/>
+
+    </com.google.android.material.appbar.MaterialToolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_marginTop="6dp">
+
+            <TextView
+                android:id="@+id/txtOTSeleccionadaEsp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Agregar Imagenes (Requerido)"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="10dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Elegir Servicio(Opcional)"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="10dp"/>
+
+            <Spinner
+                android:id="@+id/spinnerServicioCalidadEsp"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/edt_background"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Elegir Especialista(Opcional)"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="10dp"/>
+
+            <Spinner
+                android:id="@+id/spinnerEspecialistaEdit"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/edt_background"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Agregar Imagenes (Requerido)"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="10dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:adjustViewBounds="true"
+                android:id="@+id/imgEsp1Calidad"
+                android:src="@drawable/ic_baseline_add_a_photo_24"
+                android:padding="15dp"
+                android:background="@drawable/edt_background"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tomar Foto"
+                android:textColor="#3F51B5"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:background="@drawable/edt_background"
+                android:textStyle="bold"
+                android:onClick="tomatFoto"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_baseline_add_a_photo_24"
+                android:padding="15dp"
+                android:id="@+id/imgEsp2Calidad"
+                android:background="@drawable/edt_background"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tomar Foto"
+                android:textColor="#3F51B5"
+                android:layout_marginBottom="20dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:background="@drawable/edt_background"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:onClick="tomatFoto2"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:adjustViewBounds="true"
+                android:id="@+id/imgEsp3Calidad"
+                android:src="@drawable/ic_baseline_add_a_photo_24"
+                android:padding="15dp"
+                android:background="@drawable/edt_background"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tomar Foto"
+                android:textColor="#3F51B5"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:background="@drawable/edt_background"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center_horizontal"
+                android:onClick="tomatFoto3"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_baseline_add_a_photo_24"
+                android:padding="15dp"
+                android:id="@+id/imgEsp4Calidad"
+                android:background="@drawable/edt_background"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tomar Foto"
+                android:textColor="#3F51B5"
+                android:layout_marginBottom="20dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:background="@drawable/edt_background"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:onClick="tomatFoto4"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Comentario(Opcional)"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="10dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:id="@+id/edtComentarioEsp"
+                android:hint="Agregar Comentario"
+                android:paddingBottom="100dp"
+                android:paddingLeft="10dp"
+                android:textSize="15dp"
+                android:background="@drawable/edt_background"
+                android:layout_marginBottom="20dp"/>
+
+            <Button
+                android:id="@+id/btnAddControlcalidadEsp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Registrar Control"
+                android:backgroundTint="#3F51B5"
+                app:cornerRadius="20dp"/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

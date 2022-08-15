@@ -1,0 +1,14 @@
+
+X	java:S125+"<This block of commented-out lines of code should be removed.(­Ø¡­8”ì¯¨0
+h
+java:S37766"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(Õ·’ö
+7	java:S131h""Add a default case to this switch.(¿›Ý”
+_
+java:S1659Ç"HDeclare "txtCifravin" and all following declarations on a separate line.(Â—®í
+z
+java:S1319'"dThe type of "list" should be an interface such as "List" rather than the implementation "ArrayList".(Ö¬¥½
+>
+java:S1604d"(Make this anonymous inner class a lambda(»ä”ö
+a
+java:S1301h"KReplace this "switch" statement by "if" statements to increase readability.(¿›Ý”
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(„Ë†¥
