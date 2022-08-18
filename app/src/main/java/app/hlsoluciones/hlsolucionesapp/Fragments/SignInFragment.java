@@ -160,21 +160,21 @@ public class SignInFragment extends Fragment {
                         editor.apply();
                         startActivity(new Intent(((AuthActivity)getContext()), HomeLavadoActivity.class));
                         ((AuthActivity) getContext()).finish();
-                        Toast.makeText(getContext(), "Login Correcto", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getContext(), "Bienvenido "+user.getString("name"), Toast.LENGTH_LONG).show();
                     }
                     else if (tipo == 2){
                         editor.putBoolean("isLoggedInEspecial", true);
                         editor.apply();
                         startActivity(new Intent(((AuthActivity)getContext()), HomeEspecializadoActivity.class));
                         ((AuthActivity) getContext()).finish();
-                        Toast.makeText(getContext(), "Login Correcto", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getContext(), "Bienvenido "+user.getString("name"), Toast.LENGTH_LONG).show();
                     }
                     else if (tipo == 3){
                         editor.putBoolean("isLoggedInColaborador", true);
                         editor.apply();
                         startActivity(new Intent(((AuthActivity)getContext()), HomeColaboradorActivity.class));
                         ((AuthActivity) getContext()).finish();
-                        Toast.makeText(getContext(), "Login Correcto", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getContext(), "Bienvenido "+user.getString("name"), Toast.LENGTH_LONG).show();
                     }
 
 

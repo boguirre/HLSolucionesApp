@@ -1,10 +1,13 @@
 
 x
-java:S1450"]Remove the "navigationView" field and declare it as a local variable in the relevant methods.(ºº¤Şûÿÿÿÿ
-<	java:S131)""Add a default case to this switch.(øå´¡ÿÿÿÿÿ
+java:S1450"]Remove the "navigationView" field and declare it as a local variable in the relevant methods.(ºº¤Şûÿÿÿÿ
+7	java:S131 ""Add a default case to this switch.(Ëş€
+C	java:S1314""Add a default case to this switch.(øå´¡ÿÿÿÿÿ8ÿæääª0
 J
-java:S1185@"(Remove this method to simply inherit it.(œƒƒ©ùÿÿÿÿ8çÏ¼·¦0
+java:S1185K"(Remove this method to simply inherit it.(œƒƒ©ùÿÿÿÿ8çÏ¼·¦0
 >
-java:S1604%"(Make this anonymous inner class a lambda(‹·àá
-f
-java:S1301)"KReplace this "switch" statement by "if" statements to increase readability.(øå´¡ÿÿÿÿÿ
+java:S16040"(Make this anonymous inner class a lambda(‹·àá
+a
+java:S1301 "KReplace this "switch" statement by "if" statements to increase readability.(Ëş€
+m
+java:S13014"KReplace this "switch" statement by "if" statements to increase readability.(øå´¡ÿÿÿÿÿ8çääª0

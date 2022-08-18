@@ -2,6 +2,7 @@ package app.hlsoluciones.hlsolucionesapp;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
@@ -16,6 +17,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
+import android.content.res.Configuration;
 import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.net.Uri;
@@ -89,12 +91,14 @@ public class AddVehiculoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_vehiculo);
 
-//        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M){
-//            //Verifica permisos para Android 6.0+
-//            if(!checkExternalStoragePermission()){
-//                finish();
-//            }
-//        }
+        int nightModeFlags = AddVehiculoActivity.this.getResources().getConfiguration().uiMode & Configuration.UI_MODE_NIGHT_MASK;
+        switch (nightModeFlags) {
+            case Configuration.UI_MODE_NIGHT_YES:
+                /* si esta activo el modo oscuro lo desactiva */
+                AppCompatDelegate.setDefaultNightMode(
+                        AppCompatDelegate.MODE_NIGHT_NO);
+                break;
+        }
         init();
 
 
@@ -594,14 +598,14 @@ public class AddVehiculoActivity extends AppCompatActivity {
             }
         };
         RequestQueue queue = Volley.newRequestQueue(AddVehiculoActivity.this);
-        request.setRetryPolicy(new DefaultRetryPolicy(DefaultRetryPolicy.DEFAULT_TIMEOUT_MS * 4, DefaultRetryPolicy.DEFAULT_MAX_RETRIES, DefaultRetryPolicy.DEFAULT_BACKOFF_MULT));
+        request.setRetryPolicy(new DefaultRetryPolicy(DefaultRetryPolicy.DEFAULT_TIMEOUT_MS * 7, DefaultRetryPolicy.DEFAULT_MAX_RETRIES, DefaultRetryPolicy.DEFAULT_BACKOFF_MULT));
         queue.add(request);
     }
 
     private String bitmapToString(Bitmap bitmap) {
         if (bitmap != null) {
             ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
-            bitmap.compress(Bitmap.CompressFormat.JPEG, 100, byteArrayOutputStream);
+            bitmap.compress(Bitmap.CompressFormat.JPEG, 50, byteArrayOutputStream);
             byte[] array = byteArrayOutputStream.toByteArray();
             return Base64.encodeToString(array, Base64.DEFAULT);
         }

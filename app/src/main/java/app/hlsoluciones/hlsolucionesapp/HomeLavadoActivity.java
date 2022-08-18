@@ -2,10 +2,12 @@ package app.hlsoluciones.hlsolucionesapp;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
+import android.content.res.Configuration;
 import android.os.Bundle;
 import android.view.MenuItem;
 
@@ -26,6 +28,15 @@ public class HomeLavadoActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_prueba);
+
+        int nightModeFlags = HomeLavadoActivity.this.getResources().getConfiguration().uiMode & Configuration.UI_MODE_NIGHT_MASK;
+        switch (nightModeFlags) {
+            case Configuration.UI_MODE_NIGHT_YES:
+                /* si esta activo el modo oscuro lo desactiva */
+                AppCompatDelegate.setDefaultNightMode(
+                        AppCompatDelegate.MODE_NIGHT_NO);
+                break;
+        }
 
         fragmentManager = getSupportFragmentManager();
         fragmentManager.beginTransaction().replace(R.id.frameHomeContainerLavado, new VehiculoFragment(), VehiculoFragment.class.getSimpleName()).commit();

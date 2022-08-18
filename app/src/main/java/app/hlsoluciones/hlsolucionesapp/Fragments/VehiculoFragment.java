@@ -20,6 +20,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import com.android.volley.AuthFailureError;
 import com.android.volley.Request;
@@ -60,6 +61,7 @@ public class VehiculoFragment extends Fragment {
     private VehiculoAdapetr vehiculoAdapetr;
     private VehiculoAdapterEsp vehiculoAdapterEsp;
     private MaterialToolbar toolbar;
+    private TextView txtusername;
     private SharedPreferences sharedPreferences;
 
     public VehiculoFragment() {
@@ -78,6 +80,7 @@ public class VehiculoFragment extends Fragment {
     private void init(){
         sharedPreferences = getContext().getApplicationContext().getSharedPreferences("user", Context.MODE_PRIVATE);
         recyclerView = view.findViewById(R.id.recyclerVehiculo);
+//        txtusername = view.findViewById(R.id.username);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         refreshLayout = view.findViewById(R.id.swiperVehiculo);

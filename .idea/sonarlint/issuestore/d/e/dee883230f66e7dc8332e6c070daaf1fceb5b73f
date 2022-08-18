@@ -1,7 +1,10 @@
 
 y
-java:S1450"^Remove the "fragmentManager" field and declare it as a local variable in the relevant methods.(î›äÿÿÿÿÿ
+java:S1450"^Remove the "fragmentManager" field and declare it as a local variable in the relevant methods.(î›äÿÿÿÿÿ
+>	java:S131""Add a default case to this switch.(Ëş€8âíåäª0
 J
-java:S1185"(Remove this method to simply inherit it.(œƒƒ©ùÿÿÿÿ8î¶½·¦0
+java:S1185("(Remove this method to simply inherit it.(œƒƒ©ùÿÿÿÿ8î¶½·¦0
 M
-java:S1068"2Remove this unused "navigationView" private field.(ºº¤Şûÿÿÿÿ
+java:S1068"2Remove this unused "navigationView" private field.(ºº¤Şûÿÿÿÿ
+h
+java:S1301"KReplace this "switch" statement by "if" statements to increase readability.(Ëş€8âíåäª0

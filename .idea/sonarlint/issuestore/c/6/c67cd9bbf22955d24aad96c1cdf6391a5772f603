@@ -1,80 +1,83 @@
 
-s	java:S1161"RRename this field "area_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡í™°ùÿÿÿÿ8·ªÉ¥¢0
-w	java:S1161"VRename this field "servicio_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡í™°ùÿÿÿÿ8·ªÉ¥¢0
-{	java:S1161"ZRename this field "especialista_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡í™°ùÿÿÿÿ8˜Û¹¦0
+s	java:S1163"RRename this field "area_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡í™°ùÿÿÿÿ8·ªÉ¥¢0
+w	java:S1163"VRename this field "servicio_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡í™°ùÿÿÿÿ8·ªÉ¥¢0
+{	java:S1163"ZRename this field "especialista_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡í™°ùÿÿÿÿ8˜Û¹¦0
 f
-java:S16591"DDeclare "area_id" and all following declarations on a separate line.(¡í™°ùÿÿÿÿ8»ªÉ¥¢0
+java:S16593"DDeclare "area_id" and all following declarations on a separate line.(¡í™°ùÿÿÿÿ8»ªÉ¥¢0
 f
-java:S16593"DDeclare "imgSeg2" and all following declarations on a separate line.(î œéıÿÿÿÿ8»ªÉ¥¢0
+java:S16595"DDeclare "imgSeg2" and all following declarations on a separate line.(î œéıÿÿÿÿ8»ªÉ¥¢0
 x
-java:S14501"VRemove the "area_id" field and declare it as a local variable in the relevant methods.(¡í™°ùÿÿÿÿ8®¨Ë¥¢0
+java:S14503"VRemove the "area_id" field and declare it as a local variable in the relevant methods.(¡í™°ùÿÿÿÿ8®¨Ë¥¢0
 …
-java:S14502"cRemove the "btnAddControlCalidad" field and declare it as a local variable in the relevant methods.(ÉŞª³şÿÿÿÿ8¯¨Ë¥¢0
+java:S14504"cRemove the "btnAddControlCalidad" field and declare it as a local variable in the relevant methods.(ÉŞª³şÿÿÿÿ8¯¨Ë¥¢0
 €
-java:S14501"^Remove the "especialista_id" field and declare it as a local variable in the relevant methods.(¡í™°ùÿÿÿÿ8¯¨Ë¥¢0
+java:S14503"^Remove the "especialista_id" field and declare it as a local variable in the relevant methods.(¡í™°ùÿÿÿÿ8¯¨Ë¥¢0
 {
-java:S1450:"YRemove the "listaAreas" field and declare it as a local variable in the relevant methods.(ˆ¢Œ²üÿÿÿÿ8¯¨Ë¥¢0
+java:S1450<"YRemove the "listaAreas" field and declare it as a local variable in the relevant methods.(ˆ¢Œ²üÿÿÿÿ8¯¨Ë¥¢0
 ‚
-java:S1450<"`Remove the "listaEspecialista" field and declare it as a local variable in the relevant methods.(Ç„ÏÃüÿÿÿÿ8 ™¹¦0
+java:S1450>"`Remove the "listaEspecialista" field and declare it as a local variable in the relevant methods.(Ç„ÏÃüÿÿÿÿ8 ™¹¦0
 z
-java:S1450;"]Remove the "listaServicios" field and declare it as a local variable in the relevant methods.(Ë£õ8¯¨Ë¥¢0
+java:S1450="]Remove the "listaServicios" field and declare it as a local variable in the relevant methods.(Ë£õ8¯¨Ë¥¢0
 |
-java:S14501"ZRemove the "servicio_id" field and declare it as a local variable in the relevant methods.(¡í™°ùÿÿÿÿ8Ó‚Ÿ¹¦0
+java:S14503"ZRemove the "servicio_id" field and declare it as a local variable in the relevant methods.(¡í™°ùÿÿÿÿ8Ó‚Ÿ¹¦0
 p
-java:S14505"TRemove the "txtot" field and declare it as a local variable in the relevant methods.(çÚ÷)8¸Ï÷¢0
+java:S14507"TRemove the "txtot" field and declare it as a local variable in the relevant methods.(çÚ÷)8¸Ï÷¢0
 X
-java:S18746"6Remove this use of "ProgressDialog"; it is deprecated.(·á…Çùÿÿÿÿ8½ªÉ¥¢0
+java:S18748"6Remove this use of "ProgressDialog"; it is deprecated.(·á…Çùÿÿÿÿ8½ªÉ¥¢0
 G
-java:S1197A"*Move the array designators [] to the type.(¨Í“·8ğé„¾¤0
+java:S1197C"*Move the array designators [] to the type.(¨Í“·8ğé„¾¤0
+>	java:S131J""Add a default case to this switch.(Ëş€8Ôùßäª0
 X
-java:S1874U"6Remove this use of "ProgressDialog"; it is deprecated.(¿Ú•ğúÿÿÿÿ8¸¨Ë¥¢0
+java:S1874_"6Remove this use of "ProgressDialog"; it is deprecated.(¿Ú•ğúÿÿÿÿ8¸¨Ë¥¢0
 £
-java:S1186p"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(»ŠÇ¾ıÿÿÿÿ8£Ãœõ¢0
-j	java:S100z"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŒÂ¹8†€Ö¥¢0
+java:S1186z"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(»ŠÇ¾ıÿÿÿÿ8£Ãœõ¢0
+k	java:S100„"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŒÂ¹8†€Ö¥¢0
 O
-java:S1602",Remove useless curly braces around statement(ËÕ£Õúÿÿÿÿ8ÇÛÙ¥¢0
-k	java:S100 "NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Á÷Ö†8Ïô”¹¦0
+java:S1602š",Remove useless curly braces around statement(ËÕ£Õúÿÿÿÿ8ÇÛÙ¥¢0
+k	java:S100ª"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Á÷Ö†8Ïô”¹¦0
 O
-java:S1602·",Remove useless curly braces around statement(ËÕ£Õúÿÿÿÿ8Ñô”¹¦0
+java:S1602Á",Remove useless curly braces around statement(ËÕ£Õúÿÿÿÿ8Ñô”¹¦0
 P
-java:S1874Ë"2Remove this use of "setMessage"; it is deprecated.(Æ¬8—¦å¥¢0
+java:S1874Õ"2Remove this use of "setMessage"; it is deprecated.(Æ¬8—¦å¥¢0
 I
-java:S1172ƒ"+Remove this unused method parameter "view".(‘®ç8‘è×¥¢0
+java:S1172"+Remove this unused method parameter "view".(‘®ç8‘è×¥¢0
 N
-java:S1172£"+Remove this unused method parameter "view".(³ÁÆıÿÿÿÿ8Ğã¥¢0
+java:S1172­"+Remove this unused method parameter "view".(³ÁÆıÿÿÿÿ8Ğã¥¢0
 a
-java:S1874¥">Remove this use of "startActivityForResult"; it is deprecated.(öäúÿÿÿÿÿ8Óã¥¢0
+java:S1874¯">Remove this use of "startActivityForResult"; it is deprecated.(öäúÿÿÿÿÿ8Óã¥¢0
 N
-java:S1172¨"+Remove this unused method parameter "view".(°ôçôøÿÿÿÿ8Õã¥¢0
+java:S1172²"+Remove this unused method parameter "view".(°ôçôøÿÿÿÿ8Õã¥¢0
 a
-java:S1874ª">Remove this use of "startActivityForResult"; it is deprecated.(Â—¶şÿÿÿÿ8Õã¥¢0
+java:S1874´">Remove this use of "startActivityForResult"; it is deprecated.(Â—¶şÿÿÿÿ8Õã¥¢0
 I
-java:S1172­"+Remove this unused method parameter "view".(¶­ì˜8Öã¥¢0
+java:S1172·"+Remove this unused method parameter "view".(¶­ì˜8Öã¥¢0
 a
-java:S1874¯">Remove this use of "startActivityForResult"; it is deprecated.(”µá¢ùÿÿÿÿ8Ùã¥¢0
+java:S1874¹">Remove this use of "startActivityForResult"; it is deprecated.(”µá¢ùÿÿÿÿ8Ùã¥¢0
 N
-java:S1172²"+Remove this unused method parameter "view".(¬ûŒóşÿÿÿÿ8Üã¥¢0
+java:S1172¼"+Remove this unused method parameter "view".(¬ûŒóşÿÿÿÿ8Üã¥¢0
 \
-java:S1874´">Remove this use of "startActivityForResult"; it is deprecated.(ÂĞñÖ8İã¥¢0
+java:S1874¾">Remove this use of "startActivityForResult"; it is deprecated.(ÂĞñÖ8İã¥¢0
 g
-java:S1874¸"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(¹Î¾8úûà¥¢0
+java:S1874Â"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(¹Î¾8úûà¥¢0
 M
-java:S10681"+Remove this unused "area_id" private field.(¡í™°ùÿÿÿÿ8è¾¤0
+java:S10683"+Remove this unused "area_id" private field.(¡í™°ùÿÿÿÿ8è¾¤0
 P
-java:S1068:".Remove this unused "listaAreas" private field.(ˆ¢Œ²üÿÿÿÿ8é¾¤0
+java:S1068<".Remove this unused "listaAreas" private field.(ˆ¢Œ²üÿÿÿÿ8é¾¤0
 l
-java:S1192—"NDefine a constant instead of duplicating this literal "Authorization" 3 times.(ÄÈø¡8ìô”¹¦0
+java:S1192¡"NDefine a constant instead of duplicating this literal "Authorization" 3 times.(ÄÈø¡8ìô”¹¦0
 f
-java:S1192—"HDefine a constant instead of duplicating this literal "Bearer " 3 times.(ÄÈø¡8ìô”¹¦0
+java:S1192¡"HDefine a constant instead of duplicating this literal "Bearer " 3 times.(ÄÈø¡8ìô”¹¦0
 E
-java:S1604h"(Make this anonymous inner class a lambda(…•ú–8ßÃœõ¢0
+java:S1604r"(Make this anonymous inner class a lambda(…•ú–8ßÃœõ¢0
 J
-java:S1604n"(Make this anonymous inner class a lambda(…‘ğñÿÿÿÿÿ8ßÃœõ¢0
+java:S1604x"(Make this anonymous inner class a lambda(…‘ğñÿÿÿÿÿ8ßÃœõ¢0
+h
+java:S1301J"KReplace this "switch" statement by "if" statements to increase readability.(Ëş€8’úßäª0
 e
-java:S2259Ã"BA "NullPointerException" could be thrown; "data" is nullable here.(Š›É¹üÿÿÿÿ8ıà¥¢0
+java:S2259Æ"BA "NullPointerException" could be thrown; "data" is nullable here.(Š›É¹üÿÿÿÿ8ıà¥¢0
 e
-java:S2259¼"BA "NullPointerException" could be thrown; "data" is nullable here.(Š›É¹üÿÿÿÿ8ıà¥¢0
+java:S2259Í"BA "NullPointerException" could be thrown; "data" is nullable here.(Š›É¹üÿÿÿÿ8ıà¥¢0
 e
-java:S2259Ê"BA "NullPointerException" could be thrown; "data" is nullable here.(Š›É¹üÿÿÿÿ8ıà¥¢0
+java:S2259Û"BA "NullPointerException" could be thrown; "data" is nullable here.(Š›É¹üÿÿÿÿ8ıà¥¢0
 e
-java:S2259Ñ"BA "NullPointerException" could be thrown; "data" is nullable here.(Š›É¹üÿÿÿÿ8ıà¥¢0
+java:S2259Ô"BA "NullPointerException" could be thrown; "data" is nullable here.(Š›É¹üÿÿÿÿ8ıà¥¢0
